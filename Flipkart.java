@@ -56,7 +56,7 @@ public class Flipkart
         robot.mouseWheel(15);
         driver.findElement(By.xpath("//button[@type='button']")).click();
         Thread.sleep(4000);
-        //Close the driver
+        
         driver.close();
         Thread.sleep(2000);
         driver.switchTo().window(tab.get(0));
